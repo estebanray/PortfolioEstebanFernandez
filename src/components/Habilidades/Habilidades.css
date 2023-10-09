@@ -1,0 +1,65 @@
+.style-habilidades{
+    background-color: rgba(61,60,60,255);
+    width: 100%;
+    height: 800px;
+}
+
+.style-habilidades h2{
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    margin: 30px 50px;
+    padding: 30px;
+}
+
+.style-cuadro-habilidades {
+    color: white;
+    background-color: rgba(37, 36, 35, 255);
+    margin: 30px 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Alinea elementos en la parte superior */
+    margin-bottom: 40px;
+    font-family: 'Arimo', sans-serif;
+    border-radius: 15px;
+}
+
+.icono-habilidades {
+    width: 120px;
+    text-align: center;
+    margin: 10px; /* Espacio entre los iconos */
+    margin: 50px 35px;
+}
+
+.subtitulo-habilidades{
+    text-align: center; /* Opcional: centrar el subtítulo horizontalmente */
+    
+}
+
+.subtitulo-habilidades h3{
+    font-size: 1.3rem; /* Establece el tamaño del subtítulo */
+    margin-bottom: 10px; /* Espacio entre el subtítulo y los íconos */
+    padding: 0 10px;
+}
+
+
+.icono-habilidades2 {
+    width: 70px;
+    text-align: center;
+    margin: 50px 27px;
+}
+
+.subtitulo-habilidades2 h3{
+    font-size: 1.3rem; /* Establece el tamaño del subtítulo */
+    margin-bottom: 10px; /* Espacio entre el subtítulo y los íconos */
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+

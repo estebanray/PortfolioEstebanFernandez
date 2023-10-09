@@ -1,0 +1,33 @@
+.style-proyectos{
+    background-color: rgba(61,60,60,255);
+    width: 100%;
+    height: 450px;
+}
+
+.style-proyectos h2{
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    margin: 30px 50px;
+    padding: 30px;
+}
+
+.cuadros{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.cuadros p{
+    margin: 5px;
+}
+
+.cuadro {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(37, 36, 35, 255);
+    margin: 10px 60px;
+    display: inline-block; /* Esto los colocará en línea horizontal */
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,142 @@
+/* Importaciones de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+
+/* Estilos generales */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para el encabezado */
+.style-header {
+    background-color: rgba(37, 36, 35, 255);
+}
+
+/* Estilos para la navegación */
+.style-nav ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+.style-nav ul li {
+    display: inline-block;
+    margin-right: 27px;
+    padding: 10px;
+}
+
+.style-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.style-link:hover{
+    color: gray;
+    transition: color 0.2s;
+}
+
+/* Estilos para el banner de inicio */
+.style-inicio-banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img-banner {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    margin: 0px;
+    padding: 0;
+    filter: blur(2px);
+}
+
+.style-inicio-bienvenida {
+    position: absolute;
+    padding: 10px;
+    z-index: 1;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.style-nombre {
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+}
+
+.img-perfil {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    top: 70px;
+    border: solid rgba(37, 36, 35, 255) 3px;
+    border-radius: 50%;
+}
+
+.style-nombre {
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    top: 60%;
+    font-size: 80px;
+}
+
+.style-titulo-nombre {
+    margin: 7px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    background-color: white;
+    top: 80%;
+    font-size: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .style-inicio-bienvenida{
+        display: flex;
+        font-size: 20px;
+    }
+
+    .style-nombre{
+        display: flex;
+        top: 35%;
+        font-size: 50px;
+    }
+
+    .style-titulo-nombre{
+        display: flex;
+        font-size: 10px;
+        top: 70%;
+    }
+
+    .img-perfil{
+        display: none;
+    }
+
+    .style-nav ul {
+      flex-direction: column; /* Cambia la dirección de flex a columna */
+    }
+  
+    .style-nav ul li {
+      margin-right: 0; /* Elimina el margen derecho en elementos de lista */
+      margin-bottom: 10px; /* Agrega margen inferior para espaciar los elementos */
+    }
+
+    .style-link{
+        display: none;
+    }
+  }
+  
+  

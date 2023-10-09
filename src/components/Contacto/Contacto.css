@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+.style-contacto{
+    background-color: rgba(37, 36, 35, 255);
+    width: 100%;
+    height: 500px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.style-contacto h2{
+    color: white;
+    margin: 30px 50px;
+    padding: 30px;
+}
+
+
+.style-icono-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Espacio entre cada ícono y su información */
+    margin: 30px 60px;
+    width: 30%;
+}
+
+.icono-contacto img{
+    margin-right: 10px; /* Espacio entre el ícono y la información */
+    width: 24px; /* Ajusta el tamaño del ícono según tu necesidad */
+    height: 24px;
+}
+
+.style-icono-info a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.style-formulario{
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    background-color: rgba(61,60,60,255);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+    margin: 30px;
+    margin-top: -200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.style-formulario label{
+    padding: 8px 0;
+    
+}
+
+.style-formulario input{
+    height: 20px;
+    border: solid rgba(37, 36, 35, 255);
+    background-color: rgb(203, 203, 203);
+}
+
+.style-formulario textarea{
+    background-color: rgb(203, 203, 203);
+}
+
+.style-contacto button{
+    margin: 10px 250px;
+}
+
+.style-label{
+    width: 40%;
+}
+
+.firma h2{
+    margin: 100px 90px;
+    font-family: 'Alex Brush', cursive;
+    color: rgba(30, 25, 35, 255);
+}
+
+
+
